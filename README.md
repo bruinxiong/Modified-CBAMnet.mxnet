@@ -1,7 +1,7 @@
-We plan to release one modified architecture implemented by MXNet for image classification
+We plan to release one modified architecture implemented by MXNet for image classification.
 
 # CBAMnet.mxnet
-A MXNet implementation of Modified CBAMnet
+A MXNet implementation of Modified CBAMnet.
 
 In this part, we implement a modified CBAMnet (**CBAM Resnet 100**) architecture via [MXNet](http://mxnet.io/). The original one is described in the paper [CBAM: Convoluational Block Attention Module](https://arxiv.org/pdf/1807.06521v2.pdf) proposed by [Sanghyun Woo](https://github.com/shwoo93), [Jongchan Park](https://github.com/Jongchan), Joon-Young Lee, and In So Kweon. This paper is accepted by ECCV 2018.
 
