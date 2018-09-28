@@ -19,8 +19,8 @@ The Residual building block integrated with CBAM is demonstrated as the followin
 
 <img src="CBAM_ResBlock.png" width="50%" height="50%" align=left/>
 
-We implement the modified CBAMnet based on original CBAMnet 100 (ResNet 100 + CBAM).
-In our implementation, we use 1x1 convolution layer to replace the fullyconnected layer in MLP.
+We implement the modified CBAMnet based on original CBAMnet 100 (ResNet 100 + CBAM).  
+In our implementation, we use 1x1 convolution layer to replace the fully connected layer in MLP.
 
 ## What's the difference between modified version and original version ?
 **1**. The size of input data is 112x112 not 224x224. In order to preserve higher feature map resolution, we follow the setting of input in [2]. Specifically, The first convolution layer with 7x7 kernel size and 2 stride is replaced by 3x3 kernel size and 1 stride. Moreover, 
