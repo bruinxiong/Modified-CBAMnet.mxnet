@@ -9,15 +9,15 @@ In this part, we implement a modified CBAMnet (**CBAM Resnet 100**) architecture
 
 This is an overview of a convolutional block attention module (CBAM).
 
-<img src="CBAM.png" width="50%" height="50%" align=left/>
+<img src="CBAM.png" width="75%" height="75%" align=left/>
 
 Each attention sub-module is illustrated as following diagram:
 
-<img src="Channel_Spatial_Attention_Module.png" width="50%" height="50%" align=left/>
+<img src="Channel_Spatial_Attention_Module.png" width="75%" height="75%" align=left/>
 
 The Residual building block integrated with CBAM is demonstrated as the following figure:
 
-<img src="CBAM_ResBlock.png" width="50%" height="50%" align=left/>
+<img src="CBAM_ResBlock.png" width="75%" height="75%" align=left/>
 
 We implement the modified CBAMnet based on original CBAMnet 100 (ResNet 100 + CBAM).  
 In our implementation, we use 1x1 convolution layer to replace the fully connected layer in MLP.
