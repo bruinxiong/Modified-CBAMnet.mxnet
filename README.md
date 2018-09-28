@@ -43,3 +43,5 @@ we remove the following max pooling layer with 3x3 kernel size and 2 stride.
 [3] Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun. ["Identity Mappings in Deep Residual Networks"](https://arxiv.org/pdf/1603.05027v3.pdf)
 
 [Pytorch implementation](https://github.com/Youngkl0726/Convolutional-Block-Attention-Module/blob/master/CBAMNet.py)
+
+[4] [Jie Hu](https://github.com/hujie-frank), Li Shen and Gang Sun. ["Squeeze-and-Excitation Networks"](https://www.robots.ox.ac.uk/~vgg/publications/2018/Hu18/hu18.pdf) 
